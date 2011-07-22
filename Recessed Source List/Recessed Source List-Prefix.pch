@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Recessed Source List' target in the 'Recessed Source List' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

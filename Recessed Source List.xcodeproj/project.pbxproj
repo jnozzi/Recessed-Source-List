@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFE281813D9B5C200BAED67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFE281713D9B5C200BAED67 /* Cocoa.framework */; };
+		9DFE282213D9B5C200BAED67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE282013D9B5C200BAED67 /* InfoPlist.strings */; };
+		9DFE282413D9B5C200BAED67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE282313D9B5C200BAED67 /* main.m */; };
+		9DFE282813D9B5C200BAED67 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE282613D9B5C200BAED67 /* Credits.rtf */; };
+		9DFE282B13D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE282A13D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.m */; };
+		9DFE282E13D9B5C200BAED67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFE282C13D9B5C200BAED67 /* MainMenu.xib */; };
+		9DFE284513D9B65500BAED67 /* JLNRecessedBackingPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE284013D9B65500BAED67 /* JLNRecessedBackingPane.m */; };
+		9DFE284613D9B65500BAED67 /* JLNRecessedSourceSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE284213D9B65500BAED67 /* JLNRecessedSourceSplitView.m */; };
+		9DFE284713D9B65500BAED67 /* JLNRecessedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE284413D9B65500BAED67 /* JLNRecessedTableView.m */; };
+		9DFE284C13D9B72900BAED67 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFE284B13D9B72900BAED67 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DFE281313D9B5C200BAED67 /* Recessed Source List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recessed Source List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFE281713D9B5C200BAED67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9DFE281A13D9B5C200BAED67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9DFE281B13D9B5C200BAED67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DFE281C13D9B5C200BAED67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DFE281F13D9B5C200BAED67 /* Recessed Source List-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recessed Source List-Info.plist"; sourceTree = "<group>"; };
+		9DFE282113D9B5C200BAED67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DFE282313D9B5C200BAED67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFE282513D9B5C200BAED67 /* Recessed Source List-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recessed Source List-Prefix.pch"; sourceTree = "<group>"; };
+		9DFE282713D9B5C200BAED67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9DFE282913D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recessed_Source_ListAppDelegate.h; sourceTree = "<group>"; };
+		9DFE282A13D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recessed_Source_ListAppDelegate.m; sourceTree = "<group>"; };
+		9DFE282D13D9B5C200BAED67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9DFE283F13D9B65500BAED67 /* JLNRecessedBackingPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNRecessedBackingPane.h; sourceTree = "<group>"; };
+		9DFE284013D9B65500BAED67 /* JLNRecessedBackingPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNRecessedBackingPane.m; sourceTree = "<group>"; };
+		9DFE284113D9B65500BAED67 /* JLNRecessedSourceSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNRecessedSourceSplitView.h; sourceTree = "<group>"; };
+		9DFE284213D9B65500BAED67 /* JLNRecessedSourceSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNRecessedSourceSplitView.m; sourceTree = "<group>"; };
+		9DFE284313D9B65500BAED67 /* JLNRecessedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNRecessedTableView.h; sourceTree = "<group>"; };
+		9DFE284413D9B65500BAED67 /* JLNRecessedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNRecessedTableView.m; sourceTree = "<group>"; };
+		9DFE284B13D9B72900BAED67 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFE281013D9B5C200BAED67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE284C13D9B72900BAED67 /* WebKit.framework in Frameworks */,
+				9DFE281813D9B5C200BAED67 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFE280813D9B5C200BAED67 = {
+			isa = PBXGroup;
+			children = (
+				9DFE283E13D9B65500BAED67 /* Controls */,
+				9DFE281D13D9B5C200BAED67 /* Demo App */,
+				9DFE281613D9B5C200BAED67 /* Frameworks */,
+				9DFE281413D9B5C200BAED67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFE281413D9B5C200BAED67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE281313D9B5C200BAED67 /* Recessed Source List.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFE281613D9B5C200BAED67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE281713D9B5C200BAED67 /* Cocoa.framework */,
+				9DFE284B13D9B72900BAED67 /* WebKit.framework */,
+				9DFE281913D9B5C200BAED67 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFE281913D9B5C200BAED67 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE281A13D9B5C200BAED67 /* AppKit.framework */,
+				9DFE281B13D9B5C200BAED67 /* CoreData.framework */,
+				9DFE281C13D9B5C200BAED67 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9DFE281D13D9B5C200BAED67 /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE282913D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.h */,
+				9DFE282A13D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.m */,
+				9DFE282C13D9B5C200BAED67 /* MainMenu.xib */,
+				9DFE281E13D9B5C200BAED67 /* Supporting Files */,
+			);
+			name = "Demo App";
+			path = "Recessed Source List";
+			sourceTree = "<group>";
+		};
+		9DFE281E13D9B5C200BAED67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE281F13D9B5C200BAED67 /* Recessed Source List-Info.plist */,
+				9DFE282013D9B5C200BAED67 /* InfoPlist.strings */,
+				9DFE282313D9B5C200BAED67 /* main.m */,
+				9DFE282513D9B5C200BAED67 /* Recessed Source List-Prefix.pch */,
+				9DFE282613D9B5C200BAED67 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DFE283E13D9B65500BAED67 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9DFE283F13D9B65500BAED67 /* JLNRecessedBackingPane.h */,
+				9DFE284013D9B65500BAED67 /* JLNRecessedBackingPane.m */,
+				9DFE284113D9B65500BAED67 /* JLNRecessedSourceSplitView.h */,
+				9DFE284213D9B65500BAED67 /* JLNRecessedSourceSplitView.m */,
+				9DFE284313D9B65500BAED67 /* JLNRecessedTableView.h */,
+				9DFE284413D9B65500BAED67 /* JLNRecessedTableView.m */,
+			);
+			name = Controls;
+			path = "Recessed Source List/Controls";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFE281213D9B5C200BAED67 /* Recessed Source List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFE283113D9B5C200BAED67 /* Build configuration list for PBXNativeTarget "Recessed Source List" */;
+			buildPhases = (
+				9DFE280F13D9B5C200BAED67 /* Sources */,
+				9DFE281013D9B5C200BAED67 /* Frameworks */,
+				9DFE281113D9B5C200BAED67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recessed Source List";
+			productName = "Recessed Source List";
+			productReference = 9DFE281313D9B5C200BAED67 /* Recessed Source List.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFE280A13D9B5C200BAED67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Joshua Nozzi";
+			};
+			buildConfigurationList = 9DFE280D13D9B5C200BAED67 /* Build configuration list for PBXProject "Recessed Source List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DFE280813D9B5C200BAED67;
+			productRefGroup = 9DFE281413D9B5C200BAED67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFE281213D9B5C200BAED67 /* Recessed Source List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFE281113D9B5C200BAED67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE282213D9B5C200BAED67 /* InfoPlist.strings in Resources */,
+				9DFE282813D9B5C200BAED67 /* Credits.rtf in Resources */,
+				9DFE282E13D9B5C200BAED67 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFE280F13D9B5C200BAED67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE282413D9B5C200BAED67 /* main.m in Sources */,
+				9DFE282B13D9B5C200BAED67 /* Recessed_Source_ListAppDelegate.m in Sources */,
+				9DFE284513D9B65500BAED67 /* JLNRecessedBackingPane.m in Sources */,
+				9DFE284613D9B65500BAED67 /* JLNRecessedSourceSplitView.m in Sources */,
+				9DFE284713D9B65500BAED67 /* JLNRecessedTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DFE282013D9B5C200BAED67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFE282113D9B5C200BAED67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DFE282613D9B5C200BAED67 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFE282713D9B5C200BAED67 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9DFE282C13D9B5C200BAED67 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFE282D13D9B5C200BAED67 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFE282F13D9B5C200BAED67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DFE283013D9B5C200BAED67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DFE283213D9B5C200BAED67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recessed Source List/Recessed Source List-Prefix.pch";
+				INFOPLIST_FILE = "Recessed Source List/Recessed Source List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DFE283313D9B5C200BAED67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recessed Source List/Recessed Source List-Prefix.pch";
+				INFOPLIST_FILE = "Recessed Source List/Recessed Source List-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFE280D13D9B5C200BAED67 /* Build configuration list for PBXProject "Recessed Source List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFE282F13D9B5C200BAED67 /* Debug */,
+				9DFE283013D9B5C200BAED67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFE283113D9B5C200BAED67 /* Build configuration list for PBXNativeTarget "Recessed Source List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFE283213D9B5C200BAED67 /* Debug */,
+				9DFE283313D9B5C200BAED67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFE280A13D9B5C200BAED67 /* Project object */;
+}
