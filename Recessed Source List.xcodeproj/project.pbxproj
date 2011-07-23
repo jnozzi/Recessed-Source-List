@@ -23,7 +23,6 @@
 		9DFE281313D9B5C200BAED67 /* Recessed Source List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recessed Source List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFE281713D9B5C200BAED67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9DFE281A13D9B5C200BAED67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		9DFE281B13D9B5C200BAED67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9DFE281C13D9B5C200BAED67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9DFE281F13D9B5C200BAED67 /* Recessed Source List-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recessed Source List-Info.plist"; sourceTree = "<group>"; };
 		9DFE282113D9B5C200BAED67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -87,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				9DFE281A13D9B5C200BAED67 /* AppKit.framework */,
-				9DFE281B13D9B5C200BAED67 /* CoreData.framework */,
 				9DFE281C13D9B5C200BAED67 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -318,6 +316,7 @@
 				9DFE283313D9B5C200BAED67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -57,6 +57,13 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	
+	// Set table's inter-cell spacing to allow text to overlap shadow
+	// (this is important to some people but not others - best not to
+	// include it in the subclassed table view to allow this flexibility)
+	NSSize spacing = [tableView intercellSpacing];
+	spacing.width = 0.0;
+	[tableView setIntercellSpacing:spacing];
+	
 	// Build the sources array
 	sources = [[NSMutableArray array] retain];
 	
